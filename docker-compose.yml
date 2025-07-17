@@ -5,7 +5,7 @@ services:
     image: mailserver/docker-mailserver:latest
     container_name: mailserver
     hostname: mail
-    domainname: ccso
+    domainname: ccso.org
     env_file: .env
     volumes:
       - maildata:/var/mail
